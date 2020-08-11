@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color: var(--color-primary);
     border-radius: 7px;
+    margin-top: 2rem;
 }
 
 .page-header .top-bar-container {
@@ -44,7 +45,7 @@
 @media (min-width: 800px) {
     .page-header {
         height: 340px;
-        border-radius: 0;
+        border-radius: 8px;
     }
 
     .page-header .top-bar-container {
