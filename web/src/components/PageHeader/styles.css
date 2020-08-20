@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     background-color: var(--color-primary);
-    border-radius: 7px;
-    margin-top: 2rem;
+    border-radius: 3px;
+    /* margin-top: 2rem; */
+    margin: 0;
 }
 
 .page-header .top-bar-container {
@@ -13,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     color: var(--color-text-in-primary);
-    padding: 1.6rem 0;
+    padding: 4rem 0;
 }
 
 .page-header .top-bar-container a {
@@ -42,10 +43,19 @@
     color: var(--color-title-in-primary);
 }
 
-@media (min-width: 800px) {
+.page-header .header-content p {
+    max-width: 35rem;
+    font-size: 1.9rem;
+    line-height: 2.8rem;
+    color: var(--color-text-in-primary);
+    margin-top: 2.4rem;
+}
+
+
+@media (min-width: 700px) {
     .page-header {
         height: 340px;
-        border-radius: 8px;
+        /* border-radius: 8px; */
     }
 
     .page-header .top-bar-container {
